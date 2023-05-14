@@ -1,0 +1,676 @@
+@media (max-width: 1440px) {
+  body {
+    width: 100vw;
+    /* height: 50vh; */
+  }
+
+  header {
+    width: 100vw;
+  }
+
+  .header-left-side {
+    gap: 3rem;
+  }
+
+  .header-menu ul {
+    gap: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .header-logo svg {
+    transform: scale(0.85);
+    margin-top: 0.5rem;
+  }
+
+  .header-left-side {
+    justify-content: center;
+  }
+
+  .header-login-sign {
+    gap: 1.5rem;
+  }
+
+  .header-login-sign a:link,
+  .header-login-sign a:visited {
+    font-size: 1.15rem;
+  }
+
+  #sign-up-button {
+    padding: 0.3rem 1.2rem;
+  }
+
+  .text-container {
+    padding-left: 6rem;
+    /* overflow-x: hidden; */
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text-content h1 {
+    font-size: 3.4rem;
+  }
+
+  .text-content p {
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #get-started-button {
+    padding: 0.65rem 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .text-image {
+    width: 36rem;
+
+    height: 34rem;
+    right: 0% !important;
+  }
+
+  .search-content {
+    left: 25.3% !important;
+  }
+
+  .search-content svg {
+    /* overflow-x: hidden !important; */
+    width: 52vw;
+  }
+
+  .search-content input {
+    width: 32rem;
+    height: 2.8rem;
+    top: 28.5% !important;
+    left: 3.5% !important;
+    font-size: 1.25rem;
+  }
+  .search-content span {
+    font-size: 0.95rem;
+  }
+
+  .search-content button {
+    top: 28.5% !important;
+    right: 4% !important;
+
+    height: 2.8rem;
+  }
+
+  .search-results-content {
+    width: 46.8rem;
+    height: 3.5rem;
+
+    left: 25.2% !important;
+  }
+
+  .search-shorten-code button {
+    padding: 0.25rem 1.45rem;
+    font-size: 1.2rem;
+  }
+
+  .advanced-statistics {
+    left: 39% !important;
+  }
+
+  .boxes {
+    left: 20%;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 100vw;
+  }
+
+  header {
+    width: 116.1vw;
+  }
+
+  .header-logo {
+    transform: scale(0.9);
+  }
+
+  .header-menu ul {
+    font-size: 1.1rem;
+  }
+
+  .header-login-sign a:link,
+  .header-login-sign a:visited {
+    font-size: 1.1rem;
+  }
+  #sign-up-button {
+    padding: 0.26rem 1.1rem;
+    font-size: 1.1rem;
+  }
+
+  .text-container {
+    width: 116.1vw;
+    padding-left: 6rem;
+  }
+
+  .text-content h1 {
+    font-size: 3rem;
+  }
+
+  .text-content p {
+    font-size: 0.9rem;
+    width: 37vw;
+  }
+
+  #get-started-button {
+    font-size: 0.92rem;
+    padding: 0.5rem 1.3rem;
+  }
+
+  .text-image {
+    width: 30rem;
+    height: 27rem;
+  }
+
+  .search-content {
+    left: 21% !important;
+  }
+
+  .search-content svg {
+    width: 47rem;
+  }
+
+  .search-content input {
+    font-size: 0.9rem;
+    top: 24% !important;
+  }
+
+  .search-content button {
+    top: 24% !important;
+  }
+
+  .search-results-content {
+    width: 47rem;
+    height: 3rem;
+    left: 21% !important;
+  }
+
+  .search-shorten-code button {
+    font-size: 0.9rem;
+  }
+
+  .advanced-statistics {
+    top: 35% !important;
+    left: 45% !important;
+  }
+  .advanced-statistics h1 {
+    font-size: 1.25rem;
+  }
+
+  .advanced-statistics p {
+    font-size: 0.82rem;
+  }
+
+  .boxes {
+    top: 68% !important;
+    left: 19% !important;
+  }
+
+  .statistics-boxes {
+    top: 50% !important;
+    width: 50vw !important;
+  }
+
+  .boost-ur-links svg {
+    width: 116.5vw;
+    height: 17vh;
+  }
+
+  .boost-content {
+    left: 47% !important;
+  }
+
+  .boost-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .boost-content button {
+    font-size: 0.94rem;
+  }
+
+  .bottom-part {
+    width: 116.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+
+  header {
+    width: 155vw;
+  }
+
+  .text-container {
+    width: 155vw;
+  }
+
+  .text-image {
+    top: 6% !important;
+    right: 1% !important;
+  }
+
+  .search-content {
+    left: 27% !important;
+  }
+
+  .search-results-content {
+    width: 46.9rem;
+    left: 27% !important;
+  }
+
+  .advanced-statistics {
+    top: 23% !important;
+    left: 58% !important;
+    width: 38vw;
+  }
+
+  .statistics-boxes {
+    top: 44% !important;
+    left: 50% !important;
+  }
+
+  .boxes {
+    top: 58% !important;
+    left: 32% !important;
+  }
+
+  .box {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .box h2 {
+    font-size: 1.11rem;
+  }
+
+  .box p {
+    font-size: 0.8rem;
+  }
+
+  .boost-ur-links {
+    width: 100%;
+  }
+
+  .boost-ur-links svg {
+    width: 155.3vw;
+    height: 20vh;
+  }
+
+  .boost-content {
+    left: 17% !important;
+  }
+
+  .boost-content h1,
+  .boost-content button {
+    margin-left: 20rem;
+  }
+
+  .bottom-part {
+    padding: 2rem 8rem;
+
+    width: 155vw;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    height: 40vh;
+  }
+  #menu-icon {
+    display: block;
+  }
+
+  #close-icon {
+  }
+
+  .mobile-navigation {
+    visibility: visible;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-login-sign {
+    display: none;
+  }
+
+  header {
+    width: 155% !important;
+    /* padding: 3.5rem 9rem 0 9rem; */
+  }
+  .mobile-icons {
+    transform: scale(3.1);
+    display: block;
+  }
+
+  .text-container {
+    width: 155% !important;
+    padding-left: 9rem;
+  }
+
+  .text-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .text-content p {
+    width: 60vw;
+    font-size: 1rem;
+  }
+
+  #get-started-button {
+    padding: 0.5rem 1.1rem;
+  }
+
+  .text-image {
+    width: 28rem;
+    height: 24rem;
+  }
+  .search-content {
+    left: 50% !important;
+  }
+
+  .search-content input,
+  .search-content button {
+    top: 24.5% !important;
+  }
+
+  .search-results-content {
+    width: 46.9rem;
+    left: 50% !important;
+  }
+
+  .advanced-statistics {
+    width: 60vw;
+    height: 30vw;
+    top: 38% !important;
+    left: 110% !important;
+  }
+
+  .statistics-boxes {
+    top: 58% !important;
+    width: 25rem !important;
+    left: 100% !important;
+  }
+
+  .boxes {
+    top: 72% !important;
+    left: 55% !important;
+  }
+
+  .boost-ur-links {
+    margin-top: 30rem;
+  }
+
+  .boost-ur-links svg {
+    width: 210%;
+    height: 25vh;
+  }
+
+  .bottom-part {
+    width: 155%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  header {
+    width: 346vw !important;
+    height: 36vh !important;
+    padding: 0.5rem 6rem 0 6rem;
+  }
+
+  .overlay {
+    width: 346vw !important;
+    height: 320vh !important;
+  }
+
+  .text-container {
+    height: 100vh !important;
+    width: 346vw !important;
+
+    padding-left: 4rem;
+    gap: 1rem;
+  }
+
+  .text-content {
+    padding: 0;
+  }
+
+  .text-content h1 {
+    padding-bottom: 1.5rem;
+  }
+
+  .text-content p {
+    width: 120vw;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+  }
+
+  #get-started-button {
+    font-size: 1.5rem;
+    padding: 0.8rem 2.6rem;
+  }
+
+  .text-image {
+    width: 33rem;
+    height: 42rem;
+    top: -12% !important;
+  }
+
+  .header-logo {
+    transform: scale(1.5);
+  }
+
+  .search-content {
+    left: 65% !important;
+  }
+
+  .search-content button {
+    width: 9rem;
+  }
+
+  .search-results-content {
+    left: 65% !important;
+  }
+
+  #menu-icon {
+    transform: scale(1.7);
+  }
+
+  .text-content h1 {
+    font-size: 4rem;
+  }
+
+  .statistics-boxes {
+    top: 68% !important;
+    width: 30rem !important;
+    left: 100% !important;
+  }
+
+  .advanced-statistics {
+    width: 150% !important;
+    left: 85% !important;
+  }
+
+  .advanced-statistics h1 {
+    font-size: 2.5rem;
+    padding: 0 4rem;
+  }
+  .advanced-statistics p {
+    font-size: 1.5rem;
+  }
+
+  .search {
+    height: 80vh;
+  }
+
+  .boxes {
+    top: 80% !important;
+    left: 47% !important;
+  }
+
+  .box {
+    width: 18rem;
+  }
+
+  .boost-content {
+    left: 7% !important;
+    width: 40rem !important;
+  }
+
+  .boost-ur-links svg {
+    height: 25vh;
+  }
+
+  .mobile-navigation {
+    width: 37rem;
+    height: 33rem;
+    left: 100% !important;
+  }
+
+  .mobile-menu ul li {
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .mobile-login-signup {
+    font-size: 1.7rem;
+    padding-bottom: 2rem !important;
+  }
+
+  .boost-content {
+    margin-left: 7rem !important;
+  }
+
+  .boost-ur-links svg {
+    width: 346vw;
+    height: 22vh;
+  }
+
+  .boost-content button {
+    margin-top: 0.5rem !important;
+    font-size: 1.4rem;
+    padding: 0.55rem 1.6rem !important;
+  }
+
+  #close-icon {
+    top: 14% !important;
+    left: 247% !important;
+  }
+
+  .column h3 {
+    font-size: 1.6rem;
+  }
+
+  .column ul li {
+    font-size: 1.3rem;
+  }
+
+  .bottom-part {
+    padding-top: 6rem;
+    padding-left: 1rem;
+    width: 346vw;
+    height: 51.5vh;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .overlay {
+    width: 373vw !important;
+    height: 373vh !important;
+  }
+
+  .header-logo {
+    transform: scale(1.6);
+  }
+
+  header {
+    width: 369vw !important;
+  }
+
+  .text-container {
+    width: 369vw !important;
+  }
+
+  .text-image {
+    top: -10% !important;
+  }
+
+  .advanced-statistics {
+    width: 180% !important;
+    left: 85% !important;
+    top: 25% !important;
+  }
+
+  .advanced-statistics h1 {
+    font-size: 2.5rem;
+  }
+
+  .search {
+    height: 90vh !important;
+  }
+
+  .boxes {
+    top: 60% !important;
+    left: 25% !important;
+  }
+
+  .box {
+    width: 20rem !important;
+    height: 18rem !important;
+  }
+
+  .box h2 {
+    font-size: 1.4rem;
+  }
+
+  .box p {
+    font-size: 1.1rem;
+  }
+
+  .statistics-boxes {
+    width: 200vw;
+    left: 100% !important;
+    top: 52% !important;
+  }
+
+  .boost-content {
+    left: -10% !important;
+  }
+
+  .boost-ur-links h1 {
+    font-size: 2rem;
+    width: 25rem;
+  }
+
+  .boost-ur-links svg {
+    width: 373vw;
+  }
+
+  .boost-content button {
+    font-size: 1.7rem;
+    padding: 0.7rem 1.7rem;
+  }
+
+  .bottom-part {
+    width: 373vw;
+    height: 82vh;
+  }
+
+  #close-icon {
+    right: -162% !important;
+  }
+}
